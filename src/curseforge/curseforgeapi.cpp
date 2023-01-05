@@ -9,7 +9,7 @@
 #include "util/mmlogger.h"
 #include "config.hpp"
 
-const QString CurseforgeAPI::PREFIX = "https://addons-ecs.forgesvc.net";
+const QString CurseforgeAPI::PREFIX = "https://api.curseforge.com";
 
 CurseforgeAPI::CurseforgeAPI(QObject *parent) :
     QObject(parent)
